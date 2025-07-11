@@ -19,7 +19,6 @@ metadata:
 spec:
   template:
     namespace: elastic
-    serviceAccountName: stacks
     repositoryRef:
       name: infra
       namespace: infra
